@@ -131,7 +131,7 @@ async def foto(update: Update, context: ContextTypes.DEFAULT_TYPE):
     producto = r.json()
 
     await update.message.reply_text(
-        f"✅ Producto creado\n"
+        f"Producto creado\n"
         f"ID: {producto['id']}\n"
         f"Nombre: {producto['name']}"
     )
